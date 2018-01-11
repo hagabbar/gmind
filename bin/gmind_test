@@ -103,7 +103,7 @@ model.add(Dropout(0.5))
 model.add(Dense(4))
 
 test = False
-retrain = True
+retrain = False
 if test or retrain:
     model.load_weights('test.hdf')
 
